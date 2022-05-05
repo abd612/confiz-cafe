@@ -1,0 +1,29 @@
+﻿
+@{
+    ViewData["Title"] = "CreateBill";
+}
+
+<div class="mt-5">
+    <div class="center-block card" style="width:50rem;margin:auto">
+        <div class="card-body">
+            <h3>Create Bill</h3>
+            <hr />
+            <form>
+                <div class="form-group">
+                    <label>Employee Id:</label>
+                    <input type="text" id="employee-id" class="form-control" placeholder="Enter Employee Id..." required/>
+                </div>
+                <input type="button" class="btn btn-success pull-right" id="create-bill" value="Create Bill" />
+            </form>
+        </div>
+        
+    </div>
+</div>
+@section scripts{ 
+<script src="~/js/Bill/createBill.js"></script>
+    <script>
+        $(document).ready(function () {
+            cc.UI.createBill.readyMain();
+        });
+    </script>
+}
