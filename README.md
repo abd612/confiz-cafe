@@ -4,9 +4,10 @@ An Online Portal with Microsoft Teams Bot Integration to view cafe updates and m
 
 ## Description
 
-* Language: Java 8, C#, JavaScript
+* Languages: Java 8, C#, JavaScript
 * Frameworks: Spring Boot, .NET, Microsoft Teams Bot
 * Database: MongoDB
+* Video: https://youtu.be/4s7AzEbXQwo
 
 ## Features
 
